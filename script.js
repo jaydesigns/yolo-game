@@ -33,7 +33,8 @@ function chooseTopicAndLetter(){
             "An element in the periodic table",
             "A color",
             "A name of a city",
-            "A pet's name"];
+            "A pet's name",
+            "A sport's team"];
 var topic = document.getElementById("topic");
 topic.innerText = topicArr[Math.floor(Math.random() * topicArr.length)];
 
