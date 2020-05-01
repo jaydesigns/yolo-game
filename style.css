@@ -61,7 +61,7 @@ button {
 
 @media screen and (max-width: 6000px){
 h2 {
-  font-size: 10em;
+  font-size: 6em;
   hyphens: auto;
   word-wrap: break-word;
   }
