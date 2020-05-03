@@ -26,6 +26,13 @@ body {
   min-height: 38vh;
 }
 
+h1 {
+    font-family: 'Corben', cursive;
+    color: darkcyan;
+    font-size: 5em;
+    margin: 10px;
+}
+
 h2 {
     font-family: 'Corben', cursive;
     color: darkcyan;
@@ -64,6 +71,10 @@ button {
 
 
 @media screen and (max-width: 600px){
+h1 {
+  font-size: 3em;
+  }
+
 h2 {
   font-size: 2em;
   hyphens: auto;
