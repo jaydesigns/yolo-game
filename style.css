@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    height: 90vh;
-    padding: 5%;
+    height: 100vh;
+    padding: 2% 5%;
 }
 
 .box {
@@ -22,11 +22,15 @@ body {
     border-radius: 30px;
 }
 
+#topicBox {
+  min-height: 38vh;
+}
+
 h2 {
     font-family: 'Corben', cursive;
     color: darkcyan;
     font-size: 5em;
-    margin: 50px;
+    margin: 10px;
 }
 
 h3 {
@@ -61,17 +65,17 @@ button {
 
 @media screen and (max-width: 600px){
 h2 {
-  font-size: 6em;
+  font-size: 2em;
   hyphens: auto;
   word-wrap: break-word;
   }
   
   h3{
-  font-size: 2.5em;  
+  font-size: 1em;  
 }
 
   h4{
-    font-size: 2em;
+    font-size: 1em;
   }
 
   #spaceBarHit {
@@ -79,12 +83,15 @@ h2 {
   }
   
   button {
-    font-size: 4em;
+    font-size: 1.5em;
   }
 
   #linkToGame {
-    font-size: 4em;
+    font-size: 1.5em;
     font-family: 'Corben', cursive;
+  }
+  #letter {
+    font-size: 4.5em;
   }
 
 }
