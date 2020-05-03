@@ -41,10 +41,17 @@ h2 {
     margin: 10px;
 }
 
-h3, h4 {
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5em;
+    width: 50%;
+}
+
+h4 {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5em;
 }
+
 #linkToGame {
     position:relative;
     top: 100px;
@@ -85,6 +92,7 @@ h2 {
   
   h3{
   font-size: 1em;  
+    width: 100%;
 }
 
   h4{
